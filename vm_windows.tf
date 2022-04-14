@@ -59,4 +59,7 @@ resource "azurerm_windows_virtual_machine" "vm-windows" {
     version = "latest"
   }
 
+output "test_id" {
+  value = azurerm_windows_machine.vm-windows.id
+ }
 }
