@@ -1,3 +1,7 @@
+/*認証関連*/
+variable "subscription_id" {}
+variable "tenant_id" {}
+
 /*地域*/
 variable "rg-location" {}
 
